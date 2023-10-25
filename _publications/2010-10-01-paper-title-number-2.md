@@ -1,15 +1,3 @@
----
-title: "Paper Title Number 2"
-collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
----
-This paper is about the number 2. The number 3 is left for future work.
-
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
-
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
+## Conference Paper
+C. Qu, J. He and J. Li, "Multi-period Optimal Control for Mobile Agents Considering State Unpredictability," 2022 IEEE 96th Vehicular Technology Conference (VTC2022-Fall), London, United Kingdom, 2022.
+C. Qu, J. He, J. Li, C. Fang and Y. Mo, "Moving Target Interception Considering Dynamic Environment," 2022 American Control Conference (ACC), Atlanta, GA, USA, 2022.
