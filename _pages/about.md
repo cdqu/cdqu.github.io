@@ -8,10 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I'm a third year PhD student from Department of Automation, Shanghai Jiao Tong University. My research interest includes optimal control, robotics, multi-agent system and reinforcement learning.
-
-I am very fortunate to be advised by Prof. Jianping He of IWIN-FINS Lab from.
-
+Welcome to my personal website! I'm a third year PhD student from Department of Automation, Shanghai Jiao Tong University, China. I am very fortunate to be advised by Prof. Jianping He in IWIN-FINS Lab. I received my BE degree in the Department of Automation from Tsinghua University, China, in 2021. My current research interest includes optimal control, robotics, multi-agent system and reinforcement learning.
 
 Email: qucd21@sjtu.edu.cn
 
+## Updates
+2023 Oct: My personal website is online.
