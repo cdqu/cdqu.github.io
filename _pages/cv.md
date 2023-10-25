@@ -17,6 +17,6 @@ Education
 Skills
 ======
 * Programming Skills:
-  * C/C++, C#, MATLAB, Python verilog
+  C/C++, C#, MATLAB, Python verilog
 * Database: Mysql
-* Ubuntu, gazebo
+* ubuntu + ros + gazebo
