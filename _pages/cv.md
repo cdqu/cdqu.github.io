@@ -9,18 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
+## Education
 * B.E. in Tsinghua University, 2017-2021
 
-Research Intern
-======
+## Research Intern
 * Multi-task reinforcement learning based on auxiliary task gradient.  
   Advisor: Prof. Xiaolong Wang, University of California, San Diego, 2020 summer
-
   
-Skills
-======
+## Skills
 * Programming Skills:
   C/C++, C#, MATLAB, Python, Julia(capable)
 * Database: Mysql
