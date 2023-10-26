@@ -15,7 +15,7 @@ Education
 
 Research Intern
 ======
-* Multi-task reinforcement learning based on auxiliary task gradient.
+* Multi-task reinforcement learning based on auxiliary task gradient.  
   Advisor: Prof. Xiaolong Wang, University of California, San Diego (UCSD)  2020 summer
 
   
