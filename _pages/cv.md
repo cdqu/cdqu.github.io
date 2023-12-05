@@ -23,4 +23,4 @@ redirect_from:
 * Ubuntu + Ros + Gazebo
 
 ## Service
-* Teaching Assistant for Control Theory Course, 2021-2023.
+* Teaching Assistant for Control Theory Course, 2021-present.
