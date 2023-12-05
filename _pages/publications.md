@@ -4,6 +4,8 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+## Journal
+**C. Qu**, J. He, J. Li, X. Duan and Y. Mo, "Optimal Control for Mobile Agents Considering State Unpredictability", IEEE Transactions on Automatic Control, Jun. 2024, ready to publish.
 
 ## Conference Paper
 **C. Qu**, J. He, X. Duan and S. Wu, "Control Input Inference of Mobile Agents under Unknown Objective", IFAC World Congress 2023, Yokohama, Japan, 2023.  
