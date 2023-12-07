@@ -15,6 +15,6 @@ I'm a third year PhD student from the Department of Automation, Shanghai Jiao To
 Contact me: qucd21[at]sjtu[dot]edu[dot]cn
 
 ## Updates
-2023 Dec: I have finished my dissertation proposal.
+2023 Dec: I have finished my dissertation proposal.  
 2023 Dec: My first journal has been accepted by TAC :)  
 2023 Oct: My personal website is online.
