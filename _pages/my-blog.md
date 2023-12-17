@@ -1,9 +1,8 @@
 ---
 layout: archive
-title: "My_Blog"
+title: "My Blogs"
 permalink: /my-blog/
 author_profile: true
 ---
 
-## Blog list
-[IDARE](/blogs/iare/)
+#### [Inverse algebric Riccati equation](/blogs/iare/)
