@@ -25,7 +25,7 @@ where $P_N = H$. $H,Q,R$ are all positive definite matrices. Riccati equations a
 There are two points we need to think over.
 * **Uniqueness (scalar ambiguity)**
 Notice that for a DARE iteration, the parameter sets $(H,Q,R)$ and $(\alpha H, \alpha Q, \alpha R)$ with scalar
-$\alpha \in {\mathbb{R}^+$ generate the same solution sequence $K_{0:N-1}$. Does the inverse problem still possess this property, i.e., if we estimate a set of parameters $\hat{H},\hat{Q},\hat{R}$ with $K_{0:N-1}$, does there exist $\hat{H}=\alpha H,\hat{Q}=\alpha Q,\hat{R}=\alpha R$ with unknown $\alpha$?
+$\alpha \in \mathbb{R}^+$ generate the same solution sequence $K_{0:N-1}$. Does the inverse problem still possess this property, i.e., if we estimate a set of parameters $\hat{H},\hat{Q},\hat{R}$ with $K_{0:N-1}$, does there exist $\hat{H}=\alpha H,\hat{Q}=\alpha Q,\hat{R}=\alpha R$ with unknown $\alpha$?
 
 * **Identifiability**
 Are $(H,Q,R)$ in I-DARE problem always identifiable? 
