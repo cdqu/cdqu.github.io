@@ -1,19 +1,23 @@
 # Inverse discrete time algebraic Riccati equation
 In this blog, I want to talk about the inverse problem of discrete time algebraic Riccati equation (I-DARE), which I encountered during my work on the inverse optimal control (IOC) for LQR. 
-IOC is to identify the objective function based on the optimal state or input trajectories. For a finite horizon discrete-time LQR problem descried as
+IOC is to identify the objective function based on the optimal state or input trajectories. For a finite horizon discrete-time LQR problem descried as  
+
 $$ 
 \begin{aligned}
 & \min J= \sum_{k=0}^{N-1} (x_k^T Q x_k + u_k^T R u_k) + x_N^T H x_N\\   
 & s.t.~~ x_{k+1} = Ax_k + Bu_k , x_0 = \bar{x},
 \end{aligned}
 $$
-the solution is the classic linear feedback controller $u_k = K_k x_k$ and the feedback gain matrix $K_k$ (time-variant in finite horizon) is calculated by DARE:
+
+the solution is the classic linear feedback controller $u_k = K_k x_k$ and the feedback gain matrix $K_k$ (time-variant in finite horizon) is calculated by DARE:  
+
 $$
 \begin{align*}
 & P_{k-1} = A^TP_{k}A - A^T P_{k} B(R+ B^T P_{k}B)^{-1} B^TP_{k}A+Q \tag{1}\\
 & K_k =  (R + B^T P_{k+1} B)^{-1} B^T P_{k+1} A,
 \end{align*}
 $$
+
 where $P_N = H$. $H,Q,R$ are all positive definite matrices. Riccati equations are applied in various fields like LQR and Kalman filter. Note that there exist some interesting properties of DARE iteration. The sequence $P_{N:0} = P_N, P_{N=1}, ...,P_0$ is proved to be monotonous and converges to its fixed point (also the solution of continuos ARE). Now we present the I-DARE problem.
 
 >**I-DARE Problem:** Suppose the system matrices $A,B$ are known. Given the exact sequence $K_{0:N-1}$ as the solution of  DARE, can we infer the parameter matrices $H,Q,R$ ?
