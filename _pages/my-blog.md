@@ -6,4 +6,4 @@ author_profile: true
 ---
 
 ## Blog list
-[IDARE](/_posts/iare/)
+[IDARE](/posts/iare/)
