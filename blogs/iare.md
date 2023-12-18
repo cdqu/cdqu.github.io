@@ -7,7 +7,7 @@ $$
 & \min J= \sum_{k=0}^{N-1} (x_k^T Q x_k + u_k^T R u_k) + x_N^T H x_N\\   
 & s.t.~~ x_{k+1} = Ax_k + Bu_k , x_0 = \bar{x},
 \end{aligned}
-$$
+$$　　
 the solution is the classic linear feedback controller $u_k = K_k x_k$ and the feedback gain matrix $K_k$ (time-variant in finite horizon) is calculated by DARE:  
 $$
 \begin{align*}
