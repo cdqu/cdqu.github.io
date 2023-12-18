@@ -56,6 +56,7 @@ vec(\overline{Q})^T, vec(\overline{H})^T
 vec(\overline{Q'})^T, vec(\overline{H'})^T
 \end{bmatrix} \otimes vec(\overline{R'^{-1}})^T) vec(\mathcal{P}_i(\mathcal{E}_i))
 $$
+
 where $\mathcal{P}_i(\mathcal{E}_i)$ is a $\frac{m(m+1)}{2} \times n(n+1)$ matrix.  
 
 (iii) If there exist *at least $\frac{mn(n+1)(m+1)}{2}$ linearly independent vectors 
