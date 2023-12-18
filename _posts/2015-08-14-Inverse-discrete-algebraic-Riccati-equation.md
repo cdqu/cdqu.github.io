@@ -4,8 +4,6 @@ date: 2015-08-14
 permalink: /posts/2015/08/blog-post-4/
 ---
 
-# Inverse discrete time algebraic Riccati equation
-
 In this blog, I want to talk about the inverse problem of discrete time algebraic Riccati equation (I-DARE), which I encountered during my work on the inverse optimal control (IOC) for LQR. 
 IOC is to identify the objective function based on the optimal state or input trajectories. For a finite horizon discrete-time LQR problem descried as  
 
@@ -15,6 +13,7 @@ $$
 & s.t.~~ x_{k+1} = Ax_k + Bu_k , x_0 = \bar{x},
 \end{aligned}
 $$
+
 the solution is the classic linear feedback controller $u_k = K_k x_k$ and the feedback gain matrix $K_k$ (time-variant in finite horizon) is calculated by DARE:  
 
 $$
