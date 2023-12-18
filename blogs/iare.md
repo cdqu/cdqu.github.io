@@ -2,13 +2,16 @@
 
 In this blog, I want to talk about the inverse problem of discrete time algebraic Riccati equation (I-DARE), which I encountered during my work on the inverse optimal control (IOC) for LQR. 
 IOC is to identify the objective function based on the optimal state or input trajectories. For a finite horizon discrete-time LQR problem descried as  
+
 $$ 
 \begin{aligned}
 & \min J= \sum_{k=0}^{N-1} (x_k^T Q x_k + u_k^T R u_k) + x_N^T H x_N\\   
 & s.t.~~ x_{k+1} = Ax_k + Bu_k , x_0 = \bar{x},
 \end{aligned}
-$$　　
+$$
+
 the solution is the classic linear feedback controller $u_k = K_k x_k$ and the feedback gain matrix $K_k$ (time-variant in finite horizon) is calculated by DARE:  
+
 $$
 \begin{align*}
 & P_{k-1} = A^TP_{k}A - A^T P_{k} B(R+ B^T P_{k}B)^{-1} B^TP_{k}A+Q \tag{1}\\
@@ -32,12 +35,15 @@ There are two points we need to think over.
 > Suppose two gain matrix sequences $K_{0:N-1}, K'_{0:N-1}$ are generated with two sets of parameters ${H},{Q},{R}$ and ${H'},{Q'},{R'}$ respectively through DARE. If we have $K_k=K_k'$ for all $k$, do they satisfy ${H'} = \alpha H, {Q'} = \alpha Q, {R'}=\alpha R$ for some $\alpha \in \mathbb{R}^+$?
 
 The derivation sketch consists of three main steps. (i) Subtract the Riccati equation for $k=i+1$ from the equation for $k=i$ and re-write the difference in the matrix form: 
-$$R^{-1} \widetilde{\mathcal{BA}}_i \widetilde{QH}_i \widetilde{\mathcal{A}^c}_i = R'^{-1} \widetilde{\mathcal{BA}}_i \widetilde{Q'H'}_i \widetilde{\mathcal{A}^c}_i.
+$$
+R^{-1} \widetilde{\mathcal{BA}}_i \widetilde{QH}_i \widetilde{\mathcal{A}^c}_i = R'^{-1} \widetilde{\mathcal{BA}}_i \widetilde{Q'H'}_i \widetilde{\mathcal{A}^c}_i.
 $$
 
 (ii) Take the trace of both sides and we obtain 
-$$\mathrm{tr}(R^{-1} \widetilde{\mathcal{BA}}_i \widetilde{QH}_i \widetilde{\mathcal{A}^c}_i) = 
-vec(R^{-1})^T \underbrace{(\widetilde{\mathcal{A}^c}_i^T \otimes \widetilde{\mathcal{BA}}_i)}_{\mathcal{E}_i} vec(\widetilde{QH}_i).$$
+$$
+\mathrm{tr}(R^{-1} \widetilde{\mathcal{BA}}_i \widetilde{QH}_i \widetilde{\mathcal{A}^c}_i) = 
+vec(R^{-1})^T \underbrace{(\widetilde{\mathcal{A}^c}_i^T \otimes \widetilde{\mathcal{BA}}_i)}_{\mathcal{E}_i} vec(\widetilde{QH}_i).
+$$
 $$
 (\begin{bmatrix}
 vec(\overline{Q})^T, vec(\overline{H})^T
