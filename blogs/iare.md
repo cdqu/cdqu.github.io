@@ -35,15 +35,18 @@ There are two points we need to think over.
 > Suppose two gain matrix sequences $K_{0:N-1}, K'_{0:N-1}$ are generated with two sets of parameters ${H},{Q},{R}$ and ${H'},{Q'},{R'}$ respectively through DARE. If we have $K_k=K_k'$ for all $k$, do they satisfy ${H'} = \alpha H, {Q'} = \alpha Q, {R'}=\alpha R$ for some $\alpha \in \mathbb{R}^+$?
 
 The derivation sketch consists of three main steps. (i) Subtract the Riccati equation for $k=i+1$ from the equation for $k=i$ and re-write the difference in the matrix form: 
+
 $$
 R^{-1} \widetilde{\mathcal{BA}}_i \widetilde{QH}_i \widetilde{\mathcal{A}^c}_i = R'^{-1} \widetilde{\mathcal{BA}}_i \widetilde{Q'H'}_i \widetilde{\mathcal{A}^c}_i.
 $$
 
 (ii) Take the trace of both sides and we obtain 
+
 $$
 \mathrm{tr}(R^{-1} \widetilde{\mathcal{BA}}_i \widetilde{QH}_i \widetilde{\mathcal{A}^c}_i) = 
 vec(R^{-1})^T \underbrace{(\widetilde{\mathcal{A}^c}_i^T \otimes \widetilde{\mathcal{BA}}_i)}_{\mathcal{E}_i} vec(\widetilde{QH}_i).
 $$
+
 $$
 (\begin{bmatrix}
 vec(\overline{Q})^T, vec(\overline{H})^T
@@ -55,6 +58,7 @@ where $\mathcal{P}_i(\mathcal{E}_i)$ is a $\frac{m(m+1)}{2} \times n(n+1)$ matri
 
 (iii) If there exist *at least $\frac{mn(n+1)(m+1)}{2}$ linearly independent vectors 
 $vec(\mathcal{P}_i(\mathcal{E}_i))$* in the horizon $k=0,\dots, N-1$, then we can combine them as a full row rank matrix and obtain
+
 $$
 vec(\overline{Q'})=\alpha \cdot vec(\overline{Q}), vec(\overline{H'}) =\alpha \cdot vec(\overline{H}), vec(\overline{R'^{-1}}) =\frac{1}{\alpha} \cdot vec(\overline{R^{-1}}).
 $$
