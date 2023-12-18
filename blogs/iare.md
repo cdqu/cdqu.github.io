@@ -38,13 +38,14 @@ $$
 
 (ii) Take the trace of both sides and we obtain 
 $$\mathrm{tr}(R^{-1} \widetilde{\mathcal{BA}}_i \widetilde{QH}_i \widetilde{\mathcal{A}^c}_i) = 
-vec(R^{-1})^T \underbrace{(\widetilde{\mathcal{A}^c}_i^T \otimes \widetilde{\mathcal{BA}}_i)}_{\mathcal{E}_i} vec(\widetilde{QH}_i).$$
+vec(R^{-1})^T \underbrace{(\widetilde{\mathcal{A}^c}_i^T \otimes \widetilde{\mathcal{BA}}_i)}_{\mathcal{E}_i} vec(\widetilde{QH}_i),$$
+and
 $$
 (\begin{bmatrix}
 vec(\overline{Q})^T, vec(\overline{H})^T
 \end{bmatrix} \otimes vec(\overline{R^{-1}})^T) vec(\mathcal{P}_i(\mathcal{E}_i))  = (\begin{bmatrix}
 vec(\overline{Q'})^T, vec(\overline{H'})^T
-\end{bmatrix} \otimes vec(\overline{R'^{-1}})^T) vec(\mathcal{P}_i(\mathcal{E}_i))
+\end{bmatrix} \otimes vec(\overline{R'^{-1}})^T) vec(\mathcal{P}_i(\mathcal{E}_i)),
 $$
 where $\mathcal{P}_i(\mathcal{E}_i)$ is a $\frac{m(m+1)}{2} \times n(n+1)$ matrix.  
 
