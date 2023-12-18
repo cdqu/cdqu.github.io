@@ -47,8 +47,6 @@ $$
 vec(R^{-1})^T \underbrace{(\widetilde{\mathcal{A}^c}_i^T \otimes \widetilde{\mathcal{BA}}_i)}_{\mathcal{E}_i} vec(\widetilde{QH}_i).
 $$　　
 
-～
-
 $$
 (\begin{bmatrix}
 vec(\overline{Q})^T, vec(\overline{H})^T
