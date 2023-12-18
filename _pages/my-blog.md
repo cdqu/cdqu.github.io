@@ -5,4 +5,4 @@ permalink: /my-blog/
 author_profile: true
 ---
 
-## [Inverse algebric Riccati equation](/blogs/iare/)
+### 2023-11-02 [Inverse algebric Riccati equation](/blogs/iare/)
