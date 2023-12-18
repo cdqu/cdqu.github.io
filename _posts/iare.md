@@ -1,3 +1,9 @@
+---
+title: 'Blog Post number 4'
+date: 2015-08-14
+permalink: /posts/2012/08/blog-post-4/
+---
+
 # Inverse discrete time algebraic Riccati equation
 
 In this blog, I want to talk about the inverse problem of discrete time algebraic Riccati equation (I-DARE), which I encountered during my work on the inverse optimal control (IOC) for LQR. 
