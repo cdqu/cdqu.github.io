@@ -10,7 +10,6 @@ redirect_from:
 {% include base_path %}
 {% for post in site.posts %}
     <li>
-      <div> post.date </div>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{post.date}} <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
 {% endfor %}
