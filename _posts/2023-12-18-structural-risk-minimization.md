@@ -51,7 +51,7 @@ The Rademacher complexity provides an upper bound on the difference between the 
 
 The Rademacher complexity possesses some important properties, which are helpful in calculation.  
 * If $F \subseteq H$, then $\mathfrak{R}_m(F) \leq \mathfrak{R}_m(H)$.
-* for any $c\in \mathbb{R}$, $\mathfrak{R}_m(cF)=|c|\mathfrak{R}_m(F)$.
+* for any $c\in \mathbb{R}$, $\mathfrak{R}_m(cF)=\|c\|\mathfrak{R}_m(F)$.
 * if $l:\mathbb{R} \rightarrow \mathbb{R}$ is Lipschitz with constant $L$ and satisfies $l(0)=0$, then $\mathfrak{R}_m(l(F)) \leq 2L\mathfrak{R}_m(F)$.
 * $\mathfrak{R}_m(F) = \mathfrak{R}_m(\mathrm{conv}F)$.
 * $\mathfrak{R}_m (\sum_{k=1}^C F_k) \leq \sum_{k=1}^C \mathfrak{R}_m(F_k)$.
