@@ -49,7 +49,7 @@ $$
 (ii) Take the trace of both sides and we obtain 
 
 $$
-\mathrm{tr}(R^{-1} \widetilde{\mathcal{BA}}_i \widetilde{QH}_i \widetilde{\mathcal{A}^c}_i) = vec(R^{-1})^T \underbrace{(\widetilde{\mathcal{A}^c}_i^T \otimes \widetilde{\mathcal{BA}}_i)}_{\mathcal{E}_i} vec(\widetilde{QH}_i)
+\mathrm{tr}(R^{-1} \widetilde{\mathcal{BA}}_i \widetilde{QH}_i \widetilde{\mathcal{A}^c}_i) = vec(R^{-1})^T \underbrace{(\widetilde{\mathcal{A}^c}_i^T \otimes \widetilde{\mathcal{BA}}_i)}\_{\mathcal{E}_i} vec(\widetilde{QH}_i)
 $$
 
 and
