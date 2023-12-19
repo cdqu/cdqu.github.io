@@ -202,7 +202,7 @@ defaults:
       comments: true
       share: true
       related: true
-      class: wide
+      classes: wide
   # _pages
   - scope:
       path: ""
