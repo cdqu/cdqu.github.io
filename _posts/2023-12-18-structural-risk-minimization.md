@@ -43,6 +43,7 @@ The Rademacher complexity provides an upper bound on the difference between the 
 > **Theorem 1 (One-sided bound)** Let $\mathcal{L} $ be a function class mapping from $\mathcal{Z}$ to $[a,b]$ and $S=\\{z_i\\}_{i=1}^m$ be a sequence of $m$ i.i.d. samples from $\mathcal{Z}$. Then for any $\delta>0$, with at least $1-\delta$ probability
 > 
 >$$\mathbb{E}[l (z)] -\frac{1}{m} \sum_{i=1}^m l (z_i) \leq  2 \hat{\mathfrak{R}}_S(\mathcal{L} ) + 3 (b-a) \sqrt{\frac{\log \frac{2}{\delta}}{2m}}$$
+> 
 >holds for all $l \in \mathcal{L}$.
 
 > **(Two-sided bound)** For any $\delta>0$, with at least $1-\delta$ probability
@@ -54,7 +55,7 @@ The Rademacher complexity possesses some important properties, which are helpful
 * for any $c\in \mathbb{R}$, $\mathfrak{R}_m(cF)=\|c\|\mathfrak{R}_m(F)$.
 * if $l:\mathbb{R} \rightarrow \mathbb{R}$ is Lipschitz with constant $L$ and satisfies $l(0)=0$, then $\mathfrak{R}_m(l(F)) \leq 2L\mathfrak{R}_m(F)$.
 * $\mathfrak{R}_m(F) = \mathfrak{R}_m(\mathrm{conv}F)$.
-* $\mathfrak{R}_m (\sum_{k=1}^C F_k) \leq \sum_{k=1}^C \mathfrak{R}_m(F_k)$.
+* $\mathfrak{R}\_m (\sum_{k=1}^C F_k) \leq \sum_{k=1}^C \mathfrak{R}_m(F_k)$.
 
 ### Structural risk
 SRM consists of selecting an optimal reward function class index $1 \leq k^* \leq C$ and the ERM hypothesis $f^* \in \mathcal{F}_{k^*}$ which minimizes both estimation error and the model complexity penalty.
@@ -66,4 +67,6 @@ $$
 Since we cannot obtain the real value of $\mathfrak{R}_m(F_k)$, substitute with the empirical Rademacher complexity $\hat{\mathfrak{R}}_m(F_k)$. As for why we multiply $2$ here for $\mathfrak{R}_m(F_k)$, one reason is for the subsequent theorem derivation (in order to utilize Theorem 1). It is natural to do a weighted up between empirical risk and model penalty, while I have not figured out how to guarantee the learning bound in such instance.
 > **Theorem 2 (SRM learning guarantee)** For the SRM solution $f^{SRM}_{\mathcal{T}}$, with the probability $1-\delta$
 > 
-> $$ \epsilon_{\mathcal{D}}(f_{\mathcal{T}}^{SRM}) \leqslant \inf_{f \in \mathcal{F}} \left( \epsilon_{\mathcal{D}}(f) + 4 \mathfrak{R}\_m({\mathcal{F}}_{k(f)}) \right)+ 3 (b-a) \sqrt{\frac{\log \frac{4(C+1)}{\delta}}{2m}}.$$
+> $$ \epsilon_{\mathcal{D}}(f_{\mathcal{T}}^{SRM}) \leqslant \inf_{f \in \mathcal{F}} \left( \epsilon_{\mathcal{D}}(f) + 4 \mathfrak{R}\_m({\mathcal{F}}_{k(f)}) \right)+ 3 (b-a) \sqrt{\frac{\log \frac{4(C+1)}{\delta}}{2m}}$$
+>
+> holds.
