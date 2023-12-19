@@ -2,6 +2,7 @@
 title: 'Inverse discrete algebraic Riccati equation'
 date: 2023-11-03
 permalink: /posts/2023/11/Inverse-discrete-algebraic-Riccati-equation/
+sidebar: false
 ---
 
 In this blog, I want to talk about the inverse problem of discrete time algebraic Riccati equation (I-DARE), which I encountered during my work on the inverse optimal control (IOC) for LQR. 
