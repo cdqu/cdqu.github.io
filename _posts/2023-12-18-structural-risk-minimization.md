@@ -30,7 +30,7 @@ $$
 
 We then provide the following definition.
 
->**Definition 1** Given $\mathcal{L}$ as a function class mapping from $\mathcal{Z}$ to $\mathbb{R}$, and $S=(z_i)\_{i=1}^m$ as a sequence of $m$ samples from $\mathcal{Z}$, the empirical Rademacher complexity of $\mathcal{L}$ with respect to $S$ is defined as
+>**Definition 1** Given $\mathcal{L}$ as a function class mapping from $\mathcal{Z}$ to $\mathbb{R}$, and $S=\\{z_i\\}\_{i=1}^m$ as a sequence of $m$ samples from $\mathcal{Z}$, the empirical Rademacher complexity of $\mathcal{L}$ with respect to $S$ is defined as
 >
 >$$\hat{\mathfrak{R}}\_S(\mathcal{L}) = \mathbb{E}_{\sigma} \left[ \sup_{l\in \mathcal{L}} \frac{1}{m} \sum_{i=1}^m \sigma_i l(z_i) \right],$$
 >
@@ -40,7 +40,7 @@ $\mathfrak{R}\_m(\mathcal{L} ) = \mathbb{E}_{S} \hat{\mathfrak{R}}_S(\mathcal{L}
 
 The Rademacher complexity provides an upper bound on the difference between the empirical risk and the expected risk. The generalization bound is presented as follows.
 
-> **Theorem 1 (One-sided bound)** Let $\mathcal{L} $ be a function class mapping from $\mathcal{Z}$ to $[a,b]$ and $S=\{z_i\}_{i=1}^m$ be a sequence of $m$ i.i.d. samples from $\mathcal{Z}$. Then for any $\delta>0$, with at least $1-\delta$ probability
+> **Theorem 1 (One-sided bound)** Let $\mathcal{L} $ be a function class mapping from $\mathcal{Z}$ to $[a,b]$ and $S=\\{z_i\\}_{i=1}^m$ be a sequence of $m$ i.i.d. samples from $\mathcal{Z}$. Then for any $\delta>0$, with at least $1-\delta$ probability
 > 
 >$$\mathbb{E}[l (z)] -\frac{1}{m} \sum_{i=1}^m l (z_i) \leq  2 \hat{\mathfrak{R}}_S(\mathcal{L} ) + 3 (b-a) \sqrt{\frac{\log \frac{2}{\delta}}{2m}}$$
 >holds for all $l \in \mathcal{L}$.
