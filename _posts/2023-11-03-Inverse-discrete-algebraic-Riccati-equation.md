@@ -49,8 +49,7 @@ $$
 (ii) Take the trace of both sides and we obtain 
 
 $$
-\mathrm{tr}(R^{-1} \widetilde{\mathcal{BA}}_i \widetilde{QH}_i \widetilde{\mathcal{A}^c}_i) = 
-vec(R^{-1})^T \underbrace{(\widetilde{\mathcal{A}^c}_i^T \otimes \widetilde{\mathcal{BA}}_i)}_{\mathcal{E}_i} vec(\widetilde{QH}_i),
+\mathrm{tr}(R^{-1} \widetilde{\mathcal{BA}}_i \widetilde{QH}_i \widetilde{\mathcal{A}^c}_i) = vec(R^{-1})^T \underbrace{(\widetilde{\mathcal{A}^c}_i^T \otimes \widetilde{\mathcal{BA}}_i)}_{\mathcal{E}_i} vec(\widetilde{QH}_i)
 $$
 
 and
@@ -65,8 +64,8 @@ $$
 
 where $\mathcal{P}_i(\mathcal{E}_i)$ is a $\frac{m(m+1)}{2} \times n(n+1)$ matrix.  
 
-(iii) If there exist *at least $\frac{mn(n+1)(m+1)}{2}$ linearly independent vectors 
-$vec(\mathcal{P}_i(\mathcal{E}_i))$* in the horizon $k=0,\dots, N-1$, then we can combine them as a full row rank matrix and obtain
+(iii) If there exist at least $\frac{mn(n+1)(m+1)}{2}$ linearly independent vectors 
+$vec(\mathcal{P}_i(\mathcal{E}_i))$ in the horizon $k=0,\dots, N-1$, then we can combine them as a full row rank matrix and obtain
 
 $$
 vec(\overline{Q'})=\alpha \cdot vec(\overline{Q}), vec(\overline{H'}) =\alpha \cdot vec(\overline{H}), vec(\overline{R'^{-1}}) =\frac{1}{\alpha} \cdot vec(\overline{R^{-1}}).
