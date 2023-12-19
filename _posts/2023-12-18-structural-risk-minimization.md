@@ -25,7 +25,7 @@ $$
 $$
 We then provide the following definition.
 
->**Definition 1** Given $\mathcal{L}$ as a function class mapping from $\mathcal{Z}$ to $\mathbb{R}$, and $S=\{z_i\}_{i=1}^m$ as a sequence of $m$ samples from $\mathcal{Z}$, the empirical Rademacher complexity of $\mathcal{L}$ with respect to $S$ is defined as 
+>**Definition 1** Given $\mathcal{L}$ as a function class mapping from $\mathcal{Z}$ to $\mathbb{R}$, and $S=(z_i)_{i=1}^m$ as a sequence of $m$ samples from $\mathcal{Z}$, the empirical Rademacher complexity of $\mathcal{L}$ with respect to $S$ is defined as 
 >$$\hat{\mathfrak{R}}_S(\mathcal{L}) = \mathbb{E}_{\sigma} \left[ \sup_{l\in \mathcal{L}} \frac{1}{m} \sum_{i=1}^m \sigma_i l(z_i) \right],$$
 >where $\sigma = (\sigma_i)_{i=1}^m$ are independent uniform random variables distributed in $\{-1,1\}$. $\sigma_i$ is called Rademacher variable. The Rademacher complexity of $\mathcal{L} $ is
 $\mathfrak{R}_m(\mathcal{L} ) = \mathbb{E}_{S} \hat{\mathfrak{R}}_S(\mathcal{L})$.
