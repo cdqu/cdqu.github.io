@@ -16,7 +16,9 @@ SRM balances the estimation error and approximation error of the learning throug
 
 ### Empirical risk
 Empirical risk minimization is to minimize the estimation error on the given training data $\mathcal{T}$.
-$$f^{ERM}_{\mathcal{T}} = \mathop{\arg\min}\limits_{f \in \mathcal{F}} \hat{\epsilon}_{\mathcal{T}} (f), ~~ \hat{\epsilon}_{\mathcal{T}} (f) =  \frac{1}{m} \sum_{i=1}^m l(f(x),y)$$
+$$
+f^{ERM}_{\mathcal{T}} = \mathop{\arg\min}\limits_{f \in \mathcal{F}} \hat{\epsilon}_{\mathcal{T}} (f), ~~ \hat{\epsilon}_{\mathcal{T}} (f) =  \frac{1}{m} \sum_{i=1}^m l(f(x),y)
+$$
 
 ### Rademacher complexity
 Rademacher complexity  measures the capacity of a hypothesis class of real-valued functions. Denote $\mathcal{X}, \mathcal{Y}$ as the input and output spaces in a regression problem. $\mathcal{F}$ is a hypothesis function class, where $f:\mathcal{X} \xrightarrow{} \mathcal{Y}, f\in \mathcal{F}$. For an arbitrary loss function class $\mathcal{L}$ associated with $\mathcal{F}$ mapping from $\mathcal{Z} = \mathcal{X} \times \mathcal{Y}$ to $\mathbb{R}$, we have
