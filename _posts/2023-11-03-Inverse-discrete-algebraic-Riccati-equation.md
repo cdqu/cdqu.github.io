@@ -49,7 +49,7 @@ $$
 (ii) Take the trace of both sides and we obtain 
 
 $$
-\mathrm{tr}(R^{-1} \widetilde{\mathcal{BA}}_i \widetilde{QH}_i \widetilde{\mathcal{A}^c}_i) = vec(R^{-1})^T \underbrace{(\widetilde{\mathcal{A}^c}_i^T \otimes \widetilde{\mathcal{BA}}_i)}\_{\mathcal{E}_i} vec(\widetilde{QH}_i)
+\mathrm{tr}(R^{-1} \widetilde{\mathcal{BA}}_i \widetilde{QH}_i \widetilde{\mathcal{A}^c}_i) = vec(R^{-1})^T \underbrace{(\widetilde{\mathcal{A}^c}_i^T \otimes \widetilde{\mathcal{BA}}_i)}_{\mathcal{E}_i} vec(\widetilde{QH}_i)
 $$
 
 and
@@ -71,7 +71,7 @@ $$
 vec(\overline{Q'})=\alpha \cdot vec(\overline{Q}), vec(\overline{H'}) =\alpha \cdot vec(\overline{H}), vec(\overline{R'^{-1}}) =\frac{1}{\alpha} \cdot vec(\overline{R^{-1}}).
 $$
 
-Please refer to my preprint paper for detailed proof. Here we provide the following theorem. $m,n$ are the dimension of input and state vector.
+Here we provide the following theorem. $m,n$ are the dimension of input and state vector.
 >**Theorem 1** If the control horizon is set as $N < \frac{mn(n+1)(m+1)}{2}$, the true weight parameters $H,Q,R$ of the control objective will never be identified accurately, which can be utilized in preserving the system's intention.
 
 *If you are interested in IOC-LQR and this I-DARE problem, I also suggest to read [H. Zhang](https://www.sciencedirect.com/science/article/pii/S0005109819304546) (infer R) and [C. Yu](https://www.sciencedirect.com/science/article/pii/S0005109821001564) (infer Q,R).*
