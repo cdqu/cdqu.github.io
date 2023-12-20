@@ -18,7 +18,7 @@ SRM balances the estimation error and approximation error of the learning throug
 Empirical risk minimization is to minimize the estimation error on the given training data $\mathcal{T}$.
 
 $$
-{f^{ERM}\_{\mathcal{T}}} = \mathop{\arg\min}\limits_{f \in \mathcal{F}} \hat{\epsilon}\_{\mathcal{T}} (f), ~~ \hat{\epsilon}\_{\mathcal{T}} (f) =  \frac{1}{m} \sum_{i=1}^m l(f(x),y)
+{f^{ERM}_{\mathcal{T}}} = \mathop{\arg\min}\limits_{f \in \mathcal{F}} \hat{\epsilon}_{\mathcal{T}} (f), ~~ \hat{\epsilon}_{\mathcal{T}} (f) =  \frac{1}{m} \sum_{i=1}^m l(f(x),y)
 $$
 
 ### Rademacher complexity
@@ -32,7 +32,7 @@ We then provide the following definition.
 
 >**Definition 1** Given $\mathcal{L}$ as a function class mapping from $\mathcal{Z}$ to $\mathbb{R}$, and $S=\\{z_i\\}\_{i=1}^m$ as a sequence of $m$ samples from $\mathcal{Z}$, the empirical Rademacher complexity of $\mathcal{L}$ with respect to $S$ is defined as
 >
->$$\hat{\mathfrak{R}}\_S(\mathcal{L}) = \mathbb{E}_{\sigma} \left[ \sup_{l\in \mathcal{L}} \frac{1}{m} \sum_{i=1}^m \sigma_i l(z_i) \right],$$
+>$$\hat{\mathfrak{R}}_S(\mathcal{L}) = \mathbb{E}_{\sigma} \left[ \sup_{l\in \mathcal{L}} \frac{1}{m} \sum_{i=1}^m \sigma_i l(z_i) \right],$$
 >
 >where $\sigma = (\sigma_i)\_{i=1}^m$ are independent uniform random variables distributed in $\{-1,1\}$. $\sigma_i$ is called Rademacher variable. The Rademacher complexity of $\mathcal{L} $ is
 $\mathfrak{R}\_m(\mathcal{L} ) = \mathbb{E}_{S} \hat{\mathfrak{R}}_S(\mathcal{L})$.
@@ -67,6 +67,6 @@ $$
 Since we cannot obtain the real value of $\mathfrak{R}_m(F_k)$, substitute with the empirical Rademacher complexity $\hat{\mathfrak{R}}_m(F_k)$. As for why we multiply $2$ here for $\mathfrak{R}_m(F_k)$, one reason is for the subsequent theorem derivation (in order to utilize Theorem 1). It is natural to do a weighted up between empirical risk and model penalty, while I have not figured out how to guarantee the learning bound in such instance.
 > **Theorem 2 (SRM learning guarantee)** For the SRM solution $f^{SRM}_{\mathcal{T}}$, with the probability $1-\delta$
 > 
-> $$ \epsilon_{\mathcal{D}}(f_{\mathcal{T}}^{SRM}) \leqslant \inf_{f \in \mathcal{F}} \left( \epsilon_{\mathcal{D}}(f) + 4 \mathfrak{R}\_m({\mathcal{F}}_{k(f)}) \right)+ 3 (b-a) \sqrt{\frac{\log \frac{4(C+1)}{\delta}}{2m}}$$
+> $$ \epsilon_{\mathcal{D}}(f_{\mathcal{T}}^{SRM}) \leqslant \inf_{f \in \mathcal{F}} \left( \epsilon_{\mathcal{D}}(f) + 4 \mathfrak{R}_m({\mathcal{F}}_{k(f)}) \right)+ 3 (b-a) \sqrt{\frac{\log \frac{4(C+1)}{\delta}}{2m}}$$
 >
 > holds.
