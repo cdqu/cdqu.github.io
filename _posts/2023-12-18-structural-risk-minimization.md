@@ -18,7 +18,7 @@ SRM balances the estimation error and approximation error of the learning throug
 Empirical risk minimization is to minimize the estimation error on the given training data $\mathcal{T}$.
 
 $$
-f^{ERM}\_{\mathcal{T}} = \mathop{\arg\min}\limits_{f \in \mathcal{F}} \hat{\epsilon}\_{\mathcal{T}} (f), ~~ \hat{\epsilon}\_{\mathcal{T}} (f) =  \frac{1}{m} \sum_{i=1}^m l(f(x),y)
+{f^{ERM}\_{\mathcal{T}}} = \mathop{\arg\min}\limits_{f \in \mathcal{F}} \hat{\epsilon}\_{\mathcal{T}} (f), ~~ \hat{\epsilon}\_{\mathcal{T}} (f) =  \frac{1}{m} \sum_{i=1}^m l(f(x),y)
 $$
 
 ### Rademacher complexity
