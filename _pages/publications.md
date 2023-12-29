@@ -13,7 +13,7 @@ author_profile: true
 **C. Qu**, J. He, J. Li, C. Fang and Y. Mo, "Moving Target Interception Considering Dynamic Environment", 2022 American Control Conference (ACC), Atlanta, GA, USA, 2022.
 
 ## Preprints
-**C. Qu**, J. He, X. Duan and Jiming Chen, "Inverse Reinforcement Learning with Unknown Reward Model based on Structural Risk Minimization", 2023. \[[paper](https://arxiv.org/abs/2312.16566)\]  
+**C. Qu**, J. He, X. Duan and J. Chen, "Inverse Reinforcement Learning with Unknown Reward Model based on Structural Risk Minimization", 2023. \[[paper](https://arxiv.org/abs/2312.16566)\]  
 **C. Qu**, J. He and X. Duan, "Observation-based Optimal Control Law Learning with LQR Reconstruction", 2023, submitted to TAC. \[[paper](https://arxiv.org/abs/2312.16572)\]
 
 
