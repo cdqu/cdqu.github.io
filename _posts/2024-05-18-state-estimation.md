@@ -46,7 +46,7 @@ $$
 
 ### (a) with both u and y
 
-From (1), we find that if we obtain both $\mathbf{y}, \mathbf{u}$, then the initial state $x_0$ can be optimally estimated by
+From (3), we find that if we obtain both $\mathbf{y}, \mathbf{u}$, then the initial state $x_0$ can be optimally estimated by
 
 $$
 \hat{x}_0 = \mathcal{O}(C,A)^{\dagger} (\mathbf{y} - \mathcal{L}(A,B,C) \mathbf{u})
