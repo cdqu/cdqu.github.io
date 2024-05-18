@@ -1,3 +1,13 @@
+---
+title: 'State Estimation for the Observer'
+date: 2024-05-18
+permalink: /posts/2024/05/state-estimation/
+tags:
+  - state estimation
+  - linear systems
+---
+
+
 # State Estimation for the Observer
 
 State estimation is always a popular topic in the control theory. We will consider the discrete-time linear invariant system here.
