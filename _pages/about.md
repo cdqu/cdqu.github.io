@@ -15,7 +15,7 @@ I'm a third year PhD student from the Department of Automation, Shanghai Jiao To
 Contact me: qucd21[at]sjtu[dot]edu[dot]cn
 
 ## Updates
-2024 Aug: I start my visit in UCSD [SOC-lab](https://zhengy09.github.io/soclab.html).
+2024 Aug: I start my visit in UCSD [SOC-lab](https://zhengy09.github.io/soclab.html).  
 2023 Dec: I complete my dissertation proposal.  
 2023 Dec: My first journal is accepted by TAC :)  
 2023 Oct: My personal website is online.
