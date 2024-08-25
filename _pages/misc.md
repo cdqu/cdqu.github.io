@@ -16,3 +16,7 @@ author_profile: true
 <center>
     <img src="/images/misc_img/IMG_9239.JPG" width="480"/>
 </center>    
+
+<center>
+    <img src="/images/misc_img/IMG_8606.png" width="480"/>
+</center> 
