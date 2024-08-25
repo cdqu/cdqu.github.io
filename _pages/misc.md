@@ -8,10 +8,10 @@ author_profile: true
 <center>
     team in THU
     <img src="/images/misc_img/IMG_9236.JPG" width="580"/>
-    <br/>
+    <br />
     team in SJTU
     <img src="/images/misc_img/IMG_2310.JPG" width="580"/>
-    <br/>
+    <br />
     soccer jerseys
     <img src="/images/misc_img/IMG_9239.JPG" width="580"/>
     <br/>
