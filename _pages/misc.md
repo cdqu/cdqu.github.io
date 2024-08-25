@@ -4,4 +4,4 @@ permalink: /misc/
 title: "Miscellaneous"
 author_profile: true
 ---
-just pictures about my hometown, cat, playing soccer...
+![这是图片](/Users/qucd/Desktop/study/misc/IMG_9236.JPG "soccer_thu")
