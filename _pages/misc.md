@@ -6,18 +6,18 @@ author_profile: true
 ---
 
 <center>
-    THU DA team
-    <img src="/images/misc_img/IMG_9236.JPG" width="580"/>
+      THU DA team  
+    <img align="right" src="/images/misc_img/IMG_9236.JPG" width="580"/>
     <br />
     <br />
     SJTU SEIEE team
     <img src="/images/misc_img/IMG_2310.JPG" width="580"/>
     <br />
     <br />
-    jerseys
+        jerseys    
     <img src="/images/misc_img/IMG_9239.JPG" width="580"/>
     <br/>
     <br />
-    cat "qiqi"
+       cat "qiqi"  
     <img src="/images/misc_img/IMG_8606.png" width="580"/>
 </center> 
