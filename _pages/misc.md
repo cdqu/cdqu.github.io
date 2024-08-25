@@ -4,4 +4,7 @@ permalink: /misc/
 title: "Miscellaneous"
 author_profile: true
 ---
-![soccer team in THU](/images/misc_img/IMG_9236.JPG "soccer_thu")
+
+<center class="half">
+    <img src="/images/misc_img/IMG_9236.JPG" width="200"/><img src="/images/misc_img/IMG_2310.JPG" width="200"/><img src="/images/misc_img/IMG_9239.JPG" width="200"/>
+</center>
