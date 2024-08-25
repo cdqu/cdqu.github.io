@@ -5,6 +5,8 @@ title: "Miscellaneous"
 author_profile: true
 ---
 
-<center class="half">
-    <img src="/images/misc_img/IMG_9236.JPG" width="300*400"/><img src="/images/misc_img/IMG_2310.JPG" width="200"/><img src="/images/misc_img/IMG_9239.JPG" width="200"/>
+<center>
+<figure>
+    <img src="/images/misc_img/IMG_9236.JPG" width="400" height="300"/><img src="/images/misc_img/IMG_2310.JPG" width="400" height="300"/><img src="/images/misc_img/IMG_9239.JPG" width="400" height="300"/>
+</figure>
 </center>
