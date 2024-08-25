@@ -8,8 +8,8 @@ author_profile: true
 <center>
     <img src="/images/misc_img/IMG_9236.JPG" width="580"/>  
 </center>
-
-
+<br>
+<br>
 <center>
     <img src="/images/misc_img/IMG_2310.JPG" width="580"/>  
 </center>
