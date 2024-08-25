@@ -17,4 +17,4 @@ author_profile: true
 <img src="/images/misc_img/IMG_8606.png" width="580"/> cat "qiqi"  
 <br/>
 <br />
-<img src="/images/misc_img/IMG_0858.png" width="580"/> Harry Potter collections
+<img src="/images/misc_img/IMG_0858.png" width="580"/> researcher in HP
