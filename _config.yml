@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Chendi Qu"
   avatar           : "profile.png"
-  bio              : "3rd year PhD student"
+  bio              : "senior PhD student"
   location         : "Shanghai"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : #"replacethistwitterhandle"
+  twitter          : "ChendiQu"
   vine             :
   weibo            :
   xing             :
