@@ -15,7 +15,7 @@ I'm a third year PhD student from the Department of Automation, Shanghai Jiao To
 Contact me: qucd21[at]sjtu[dot]edu[dot]cn
 
 ## Updates
-2024 Sep: My paper on the inverse optimal control is accepted by IEEE TAC (to appear in 2025).  
+2024 Sep: My paper on the inverse optimal control is accepted by IEEE TAC!  
 2024 Aug: I started a visit in UCSD [SOC-lab](https://zhengy09.github.io/soclab.html).  
 2023 Dec: I completed my dissertation proposal.  
 2023 Dec: My first journal is accepted by IEEE TAC.  
