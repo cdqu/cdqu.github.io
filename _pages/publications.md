@@ -4,7 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-## Journals
+## Journals  
 **C. Qu**, J. He and X. Duan, "Observation-based Optimal Control Law Learning with LQR Reconstruction", IEEE Transactions on Automatic Control (to appear in 2025). \[[arxiv](https://arxiv.org/abs/2312.16572)\]  
 **C. Qu**, J. He, J. Li, X. Duan and Y. Mo, "Optimal Control for Mobile Agents Considering State Unpredictability", IEEE Transactions on Automatic Control, 2023. \[[paper](https://ieeexplore.ieee.org/abstract/document/10363359)\]  
 
@@ -15,8 +15,8 @@ author_profile: true
 **C. Qu**, J. He, J. Li, C. Fang and Y. Mo, "Moving Target Interception Considering Dynamic Environment", 2022 American Control Conference (ACC), Atlanta, GA, USA, 2022.
 
 ## Preprints  
-**C. Qu**, J. He and X. Duan, "Inverse Reinforcement Learning with Unknown Reward Model based on Structural Risk Minimization". \[[arxiv](https://arxiv.org/abs/2312.16566)\]
-
+**C. Qu**, J. He and X. Duan, "Inverse Reinforcement Learning with Unknown Reward Model based on Structural Risk Minimization". \[[arxiv](https://arxiv.org/abs/2312.16566)\]  
+**C. Qu**, J. He and X. Duan, "3DIOC: Direct Data-Driven Inverse Optimal Control for LTI Systems".
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
