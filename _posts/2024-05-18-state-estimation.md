@@ -23,7 +23,7 @@ $$
 \underbrace{\begin{pmatrix}
 y_0 \\ y_1 \\ \vdots \\ y_{N-1}
 \end{pmatrix}}_{\mathbf{y}} = \underbrace{\begin{pmatrix}
-0 &0&0&\cdots&0 \\ CB & 0&0&\cdots & 0 \\ \vdots &\vdots& &  \\ CA^{N-2}B & CA^{N-1}B & &\cdots & 0
+0 &0&0&\cdots&0 \\ CB & 0&0&\cdots & 0 \\ \vdots &\vdots& &  \\ CA^{N-2}B & CA^{N-3}B & &\cdots & 0
 \end{pmatrix}}_{\mathcal{L}(A,B,C)} \underbrace{\begin{pmatrix}
 u_0 \\ u_1 \\ \vdots \\ u_{N-1}
 \end{pmatrix}}_{\mathbf{u}} + \underbrace{\begin{pmatrix}
