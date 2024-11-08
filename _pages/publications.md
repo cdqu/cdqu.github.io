@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 ## Journals  
-**C. Qu**, J. He and X. Duan, "Observation-based Optimal Control Law Learning with LQR Reconstruction", IEEE Transactions on Automatic Control (to appear in 2025). \[[arxiv](https://arxiv.org/abs/2312.16572)\]  
+**C. Qu**, J. He and X. Duan, "Control Law Learning Based on LQR Reconstruction With Inverse Optimal Control", IEEE Transactions on Automatic Control (to appear in 2025). \[[arxiv](https://arxiv.org/abs/2312.16572)\]  
 **C. Qu**, J. He, J. Li, X. Duan and Y. Mo, "Optimal Control for Mobile Agents Considering State Unpredictability", IEEE Transactions on Automatic Control, 2023. \[[paper](https://ieeexplore.ieee.org/abstract/document/10363359)\]  
 
 
