@@ -15,8 +15,8 @@ I'm a fourth year PhD student from the Department of Automation, Shanghai Jiao T
 Contact me: qucd21[at]sjtu[dot]edu[dot]cn
 
 ## Updates
-2024 Dec: I went to CDC in Milan, Italy and received the Graduate Collaboration Fellowship Awardees! Congrats!!
-2024 Dec: I won the 2024 Zhengyang SEIEE Schoalarship! (1/4 PhD students)
+2024 Dec: I went to CDC in Milan, Italy and received the Graduate Collaboration Fellowship Awardees! Congrats!!  
+2024 Dec: I won the 2024 Zhengyang SEIEE Schoalarship! (1/4 PhD students)  
 2024 Sep: My paper on the inverse optimal control is accepted by IEEE TAC!  
 2024 Aug: I started a visit in UCSD [SOC-lab](https://zhengy09.github.io/soclab.html).  
 2023 Dec: I completed my dissertation proposal.  
