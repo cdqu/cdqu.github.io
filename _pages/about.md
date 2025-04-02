@@ -12,8 +12,8 @@ Welcome to my personal website!
 
 I'm a fourth year PhD student from the Department of Automation, Shanghai Jiao Tong University, China. I am very fortunate to be advised by [Prof. Jianping He](https://automation.sjtu.edu.cn/JPHE) and [Prof. Xiaoming Duan](https://xmduan.github.io/index.html) in [IWIN-FINS](https://iwin-fins.com/) Lab. I received my B.E. degree advised by [Prof. Yilin Mo](https://yilinmo.github.io/) in the Department of Automation from Tsinghua University, China, in 2021. My research interest lies in optimal control and learning from demonstrations/imitation learning for robots. I dedicate to build a bridge between optimal control and reinforcement learning communities as a long-term goal.
 
-***I am currently seeking postdoctoral opportunities***  
-*Any potential collaboration is welcomed. Please feel free to reach out*
+***I am seeking postdoctoral opportunities***  
+*always open to any potential collaboration. Please feel free to reach out*
 
 Contact me: qucd21[at]sjtu[dot]edu[dot]cn
 
