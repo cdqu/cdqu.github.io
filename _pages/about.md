@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "Chendi Qu (屈晨迪)"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
