@@ -12,7 +12,7 @@ redirect_from:
 Welcome to my personal website! 
 
 I'm a final year PhD student from the Department of Automation, Shanghai Jiao Tong University, China. I am very fortunate to be advised by [Prof. Jianping He](https://automation.sjtu.edu.cn/JPHE) and [Prof. Xiaoming Duan](https://xmduan.github.io/index.html) in [IWIN-FINS](https://iwin-fins.com/) Lab. I received my B.E. degree advised by [Prof. Yilin Mo](https://yilinmo.github.io/) in the Department of Automation from Tsinghua University, China, in 2021. 
-I'm currently an intern in [AgiBot](https://www.agibot.com/) mentored by [Dr. Jianlan Luo](https://scholar.google.com/citations?user=SJoRNbYAAAAJ&hl=en), working on VLA post-training and RL.  
+I'm currently an intern in [AgiBot](https://www.agibot.com/) mentored by [Dr. Jianlan Luo](https://scholar.google.com/citations?user=SJoRNbYAAAAJ&hl=en), working on VLA post-training and RL fine-tuning.  
 
 My research background lies in the intersection of optimal control and optimization. During my Phd, I mainly focus on learning from demonstrations (inverse optimal control) applied for robots. I dedicate to build a bridge between optimal control and reinforcement learning communities as a long-term goal.
 
