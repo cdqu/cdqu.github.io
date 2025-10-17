@@ -22,7 +22,7 @@ My research background lies in the intersection of optimal control and optimizat
 Contact me: qucd21[at]sjtu[dot]edu[dot]cn
 
 ## Updates
-2025 Sept: I started an internship at Agibot Embodied Intelligence Center RL Lab!  
+2025 Sep: I started an internship at Agibot Embodied Intelligence Center RL Lab!  
 2025 Jul: My paper on model selection for inverse RL is accepted by IEEE CDC 2025!  
 2024 Dec: I went to CDC in Milan, Italy and received the IEEE CSS Graduate Collaboration Fellowship Award (top 10 worldwide)! Congrats!!  
 2024 Dec: I won the 2024 SJTU Zhengyang SEIEE Scholarship!   
