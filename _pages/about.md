@@ -21,7 +21,7 @@ My research background lies in the intersection of optimal control and optimizat
 Contact me: qucd21[at]sjtu[dot]edu[dot]cn
 
 ## Updates
-2026 Jan: We propose a general-purpose, high-performance VLA post-training framework: [SOP](https://www.agibot.com/research/sop)!  
+2026 Jan: We propose a scalable online post-training framework: [SOP](https://www.agibot.com/research/sop) for general-purpose, high-performance VLA!  
 2025 Sep: I started an internship at Agibot Research Center RL Lab!  
 2025 Jul: My paper on model selection for inverse RL is accepted by IEEE CDC 2025!  
 2024 Dec: I went to CDC in Milan, Italy and received the IEEE CSS Graduate Collaboration Fellowship Award (top 10 worldwide)! Congrats!!  
