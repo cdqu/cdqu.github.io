@@ -16,13 +16,13 @@ I'm currently an intern in [AgiBot](https://www.agibot.com/) mentored by [Dr. Ji
 
 My research background lies in the intersection of optimal control and optimization. During my Phd, I mainly focus on learning from demonstrations (inverse optimal control) applied for robots. I dedicate to build a bridge between optimal control and reinforcement learning communities as a long-term goal.
 
-***I am seeking postdoctoral opportunities (2026 Spring)***  
 *Always open to any potential collaboration. Please feel free to reach out!!*
 
 Contact me: qucd21[at]sjtu[dot]edu[dot]cn
 
 ## Updates
-2025 Sep: I started an internship at Agibot Embodied Intelligence Center RL Lab!  
+2026 Jan: We propose a general-purpose, high-performance VLA post-training framework: [SOP](https://www.agibot.com/research/sop)!
+2025 Sep: I started an internship at Agibot Research Center RL Lab!  
 2025 Jul: My paper on model selection for inverse RL is accepted by IEEE CDC 2025!  
 2024 Dec: I went to CDC in Milan, Italy and received the IEEE CSS Graduate Collaboration Fellowship Award (top 10 worldwide)! Congrats!!  
 2024 Dec: I won the 2024 SJTU Zhengyang SEIEE Scholarship!   
