@@ -21,6 +21,7 @@ My research background lies in the intersection of optimal control and optimizat
 Contact me: qucd21[at]sjtu[dot]edu[dot]cn
 
 ## Updates
+2026 May: I successfully defended my PhD thesis. Congrats!!!  
 2026 Jan: Our paper on unpredictable optimal control is accepted by Automatica as a full paper!  
 2026 Jan: We propose a scalable online post-training framework: [SOP](https://www.agibot.com/research/sop) for general-purpose, high-performance VLA!  
 2025 Sep: I started an internship at [AgiBot Research](https://www.agibot.com/research) Center mentored by [Dr. Jianlan Luo](https://scholar.google.com/citations?user=SJoRNbYAAAAJ&hl=en).    
